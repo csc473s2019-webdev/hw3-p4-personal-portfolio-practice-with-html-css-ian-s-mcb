@@ -31,3 +31,29 @@ section#welcome > h1 {
         margin: 25px;
     }
 }
+section#profiles {
+    width: 100%;
+    text-align: center;
+    background-color: #aaa;
+    padding-top: 15px;
+    padding-bottom: 100px;
+}
+a.profile {
+    display: inline-flex;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 3px solid #999;
+    color: #fff;
+    text-decoration: none;
+}
+a.profile:hover {
+    color: #aaa;
+    background-color: #fff;
+    border-color: #fff;
+}
+a.profile > i {
+    width: 100%;
+    text-align: center;
+}
