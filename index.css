@@ -22,7 +22,7 @@ section#welcome-section {
   min-height: 40vh;
   padding-top: 60vh;
   border: 1px solid #000;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Abel', sans-serif;
   font-size: 1.5em;
   background-image: url('./images/bg-1024x768.jpg');
   background-repeat:no-repeat;
