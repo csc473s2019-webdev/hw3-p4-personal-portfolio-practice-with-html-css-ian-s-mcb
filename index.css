@@ -1,21 +1,21 @@
 body {
   margin: 0;
 }
-nav {
+nav#navbar {
   position: fixed;
   width: 100%;
   background-color: #ddd;
 }
-nav li {
+nav#navbar li {
   list-style: none;
   display: inline;
 }
-section#welcome {
+section#welcome-section {
   min-height: 50vh;
   padding-top: 50vh;
   border: 1px solid #000;
 }
-section#welcome > h1 {
+section#welcome-section > h1 {
   text-align: center;
 }
 .project-tile {
