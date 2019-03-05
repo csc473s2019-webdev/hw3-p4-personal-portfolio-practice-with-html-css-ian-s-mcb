@@ -57,3 +57,11 @@ a.profile > i {
     width: 100%;
     text-align: center;
 }
+footer {
+    background-color: #aaa;
+    padding-bottom: 50px;
+}
+footer > span {
+    display: block;
+    text-align: center;
+}
