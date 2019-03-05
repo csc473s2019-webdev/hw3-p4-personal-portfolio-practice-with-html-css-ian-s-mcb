@@ -18,3 +18,16 @@ section#welcome {
 section#welcome > h1 {
     text-align: center;
 }
+.project-tile {
+    display: inline-block;
+    width: 225px;
+    height: 175px;
+    margin: 15px;
+    overflow: hidden;
+    border: 1px solid #000;
+}
+@media screen and (min-width: 900px) {
+    .project-tile {
+        margin: 25px;
+    }
+}
