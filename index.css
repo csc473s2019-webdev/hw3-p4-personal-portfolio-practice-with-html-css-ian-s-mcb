@@ -11,9 +11,11 @@ nav#navbar li {
   display: inline;
 }
 section#welcome-section {
-  min-height: 50vh;
-  padding-top: 50vh;
+  min-height: 65vh;
+  padding-top: 35vh;
   border: 1px solid #000;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.5em;
 }
 section#welcome-section > h1 {
   text-align: center;
