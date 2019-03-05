@@ -10,3 +10,11 @@ nav li {
     list-style: none;
     display: inline;
 }
+section#welcome {
+    min-height: 50vh;
+    padding-top: 50vh;
+    border: 1px solid #000;
+}
+section#welcome > h1 {
+    text-align: center;
+}
