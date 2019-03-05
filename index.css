@@ -1,24 +1,37 @@
 body {
   margin: 0;
+  background-color: #999;
 }
 nav#navbar {
   position: fixed;
   width: 100%;
-  background-color: #ddd;
+  background-color: #aaa;
 }
 nav#navbar li {
   list-style: none;
   display: inline;
 }
+nav#navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+nav#navbar a:hover {
+  text-decoration: underline;
+}
 section#welcome-section {
-  min-height: 65vh;
-  padding-top: 35vh;
+  min-height: 40vh;
+  padding-top: 60vh;
   border: 1px solid #000;
   font-family: 'Shadows Into Light', cursive;
   font-size: 1.5em;
+  background-image: url('./images/bg-1024x768.jpg');
+  background-repeat:no-repeat;
+  background-position: center;
+  color: #fff;
 }
 section#welcome-section > h1 {
   text-align: center;
+  background-color: #99999980;
 }
 .project-tile {
   display: inline-block;
@@ -29,6 +42,9 @@ section#welcome-section > h1 {
   border: 1px solid #000;
 }
 @media screen and (min-width: 900px) {
+  section#welcome-section {
+    background-image: url('./images/bg-1920x1440.jpg');
+  }
   .project-tile {
     margin: 25px;
   }
